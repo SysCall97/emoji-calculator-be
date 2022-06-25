@@ -1,23 +1,30 @@
 # Emoji Calculator Backend
 
 ## Installation
- Step-1: 
+ Step-1: <br/>
+ Run the command to clone the repository:
 ```bash
- $ git clone https://github.com/SysCall97/emoji-calculator-be.git
+ git clone https://github.com/SysCall97/emoji-calculator-be.git
 ```
- Step-2:
+ Step-2:<br/>
+ Checkout to ``Development`` branch
  ```bash
- $ composer install
+ git checkout Development
+ ```
+ Step-3:<br/>
+ Install the dependencies
+ ```bash
+ composer install
 ```
-Step-3:<br/>
+Step-4:<br/>
 Setup and run frontend from (if not done yet)
 ```bash
 https://github.com/SysCall97/emoji-calculator-fe
 ```
- Step-4:<br/>
+ Step-5:<br/>
  Start the script by running the following command
  ```bash
- $ php artisan serve --port=8000
+ php artisan serve --port=8000
 ```
 
 ## Technology used
